@@ -1,4 +1,274 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Lato);@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);@charset "UTF-8";
+
+html,
+body {
+  background-color: #070707 !important;
+  color: #6b6b6b !important;
+}
+
+.container {
+  margin: auto 0;
+}
+
+.menu {
+  height: 50px;
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+.menu ul {
+  padding: 15px;
+  padding-left: 0px;
+}
+
+.menu li {
+  list-style-type: none;
+  float: left;
+  margin-right: 20px;
+}
+
+.menu a:link {
+  color: #6f6f6f;
+}
+
+.menu a:hover {
+  color: #588ead;
+  text-decoration: none;
+}
+
+.dejvNaslov {
+  font-family: Roboto Slab, serif;
+  color: #588ead;
+}
+
+.oDejvu {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dejv-tekst {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.slika1 {
+  max-width: 100%;
+  max-height: 60%;
+}
+
+.footer {
+  margin-bottom: 30px;
+  margin-top: 60px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer h4 {
+  letter-spacing: 2px;
+}
+
+.footer-srednji a {
+  color: #6b6b6b;
+}
+
+.footer-srednji a:hover {
+  color: #588ead;
+  text-decoration: none;
+}
+
+.video-odjeljak {
+  margin-top: 30px;
+}
+
+.nasloviKategorija {
+  color: #588ead;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+
+.nasloviKategorijaContact {
+  color: #588ead;
+  letter-spacing: 5px;
+  font-weight: 300;
+  margin-top: 60px;
+}
+
+.okvir {
+  margin-top: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #588ead;
+  max-width: 100%;
+  height: 300px;
+  padding: 50px;
+}
+
+.okvir-manji {
+  border-width: 0px;
+  border-style: solid;
+  border-color: #588ead;
+  max-width: 40%;
+  float: left;
+  padding-left: 30px;
+}
+
+.okvir-manji2 {
+  border-width: 0px;
+  border-style: solid;
+  border-color: #588ead;
+  max-width: 40%;
+  margin-left: 500px;
+  float: left;
+  padding: 0px;
+}
+
+/*
+
+::::::footer::::::
+
+ */
+
+.socijala {
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.84);
+  -webkit-font-smoothing: antialiased;
+}
+
+.socijala a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
+.socijala p > a:hover {
+  color: #d9d9d9;
+  text-decoration: underline;
+}
+
+.socijala h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1% 0 1% 0;
+}
+
+._12 {
+  font-size: 1.2em;
+}
+
+._14 {
+  font-size: 1.4em;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-social-icons {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
+.social-icon {
+  color: #fff;
+}
+
+ul.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  padding: 10px 14px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+
+.fa-twitter {
+  padding: 10px 12px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+
+.fa-rss {
+  padding: 10px 14px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
+.fa-rss:hover {
+  background-color: #eb8231;
+}
+
+.fa-youtube {
+  padding: 10px 14px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
+.fa-youtube:hover {
+  background-color: #e64a41;
+}
+
+.fa-linkedin {
+  padding: 10px 14px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
+
+.fa-google-plus {
+  padding: 10px 9px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
+.fa-google-plus:hover {
+  background-color: #e25714;
+}
+
+.fa-instagram {
+  padding: 10px 9px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
+.fa-instagram:hover {
+  background-color: #e25714;
+}
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -8347,6 +8617,12 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important;
+  }
+}
+
+@media (max-width: 645px) {
+  .dejvovaslika {
+    height: 25vh;
   }
 }
 
